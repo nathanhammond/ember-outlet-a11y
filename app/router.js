@@ -6,6 +6,11 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('feed');
+  this.route('profile');
+  this.route('messages', function() {
+    this.route('message', {path: "/:id"});
+  });
 });
 
 export default Router;

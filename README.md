@@ -1,7 +1,8 @@
-# Ember-outlet-a11y
+# ember-outlet-a11y
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is an example app featuring the [mock implementation](https://gist.github.com/nathanhammond/f48a793042d5100fbe89) of [RFC #66 - Outlet Focusing](https://github.com/emberjs/rfcs/pull/66) to add a new `focus()` hook on `Ember.Route`.
+
+There is a custom build of Ember checked in to this repo. You may need to reset things when you `bower install`.
 
 ## Prerequisites
 
